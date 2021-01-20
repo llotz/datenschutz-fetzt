@@ -1,0 +1,73 @@
+html {
+	scroll-behavior: smooth;
+	background-color: #7e1634;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: aliceblue;
+}
+
+a {
+	color: #ce5374;
+}
+
+.page {
+	display: flex;
+	justify-content: center;
+}
+
+.logo {
+	font-size: 3em;
+	background-color: #223127;
+	display: flex;
+	flex-direction: column;
+	font-variant: small-caps;
+	line-height: 1.1em;
+	padding-top: 0.6em;
+	padding-bottom: 0.6em;
+	padding-left: 1em;
+}
+
+.logo2 {
+	color: #ce5374;
+}
+
+.paragraph {
+	padding: 1em;
+}
+
+.content {
+	font-size: 1.4em;
+	padding-left: 2em;
+	padding-right: 1em;
+}
+
+.tagline {
+	font-size: 2em;
+	padding-left: 1em;
+	padding-bottom: 0.4em;
+	font-variant: small-caps;
+}
+
+.teaser {
+}
+
+.motivation {
+	background-color: #223127;
+	height: 500px;
+}
+
+.apps {
+	height: 700px;
+}
+
+.details {
+	background-color: #223127;
+}
+
+.about {
+	height: 800px;
+}
