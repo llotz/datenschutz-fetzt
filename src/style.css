@@ -36,13 +36,22 @@ a {
 }
 
 .paragraph {
-	padding: 1em;
+	padding: 2em 1em;
 }
 
 .content {
 	font-size: 1.4em;
 	padding-left: 2em;
 	padding-right: 1em;
+}
+
+.content p {
+	margin-top: 2em;
+}
+
+.punchline {
+	font-variant: small-caps;
+	font-size: 1.2em;
 }
 
 .tagline {
@@ -57,7 +66,6 @@ a {
 
 .motivation {
 	background-color: #223127;
-	height: 500px;
 }
 
 .apps {
